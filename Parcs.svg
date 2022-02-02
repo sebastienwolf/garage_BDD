@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="652" height="347" view_box="0 0 652 347"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 01 Feb 2022 08:14:43</desc>
+
+<rect id="frame" x="0" y="0" width="652" height="347" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Association Contient -->
+<line x1="47" y1="160" x2="150" y2="160" stroke="#35978f" stroke-width="2"/>
+<text x="90" y="177.0" fill="#8c510a" font-family="Verdana" font-size="12">0,1</text>
+<line x1="277" y1="160" x2="150" y2="160" stroke="#35978f" stroke-width="2"/>
+<text x="188" y="177.0" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-Contient">
+	<path d="M 169 135 a 14 14 90 0 1 14 14 V 160 h -66 V 149 a 14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+	<path d="M 183 160.0 v 11 a 14 14 90 0 1 -14 14 H 131 a 14 14 90 0 1 -14 -14 V 160.0 H 66" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+	<rect x="117" y="135" width="66" height="50" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+	<line x1="117" y1="160" x2="183" y2="160" stroke="#35978f" stroke-width="1"/>
+	<text x="124" y="152.7" fill="#000000" font-family="Verdana" font-size="12">Contient</text>
+	<text x="124" y="177.8" fill="#000000" font-family="Verdana" font-size="12">Date</text>
+</g>
+
+<!-- Association Appartient -->
+<line x1="609" y1="68" x2="504" y2="68" stroke="#35978f" stroke-width="2"/>
+<text x="548" y="85.0" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<line x1="504" y1="160" x2="504" y2="68" stroke="#35978f" stroke-width="2"/>
+<text x="509.0" y="110" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-Appartient">
+	<path d="M 529 43 a 14 14 90 0 1 14 14 V 68 h -78 V 57 a 14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+	<path d="M 543 68.0 v 11 a 14 14 90 0 1 -14 14 H 479 a 14 14 90 0 1 -14 -14 V 68.0 H 78" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+	<rect x="465" y="43" width="78" height="50" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+	<line x1="465" y1="68" x2="543" y2="68" stroke="#35978f" stroke-width="1"/>
+	<text x="472" y="60.7" fill="#000000" font-family="Verdana" font-size="12">Appartient</text>
+</g>
+
+<!-- Association Concerne -->
+<line x1="277" y1="160" x2="277" y2="287" stroke="#35978f" stroke-width="2"/>
+<text x="282.0" y="228" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<line x1="407" y1="287" x2="277" y2="287" stroke="#35978f" stroke-width="2"/>
+<text x="318" y="304.0" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-Concerne">
+	<path d="M 299 262 a 14 14 90 0 1 14 14 V 287 h -72 V 276 a 14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+	<path d="M 313 287.0 v 11 a 14 14 90 0 1 -14 14 H 255 a 14 14 90 0 1 -14 -14 V 287.0 H 72" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+	<rect x="241" y="262" width="72" height="50" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+	<line x1="241" y1="287" x2="313" y2="287" stroke="#35978f" stroke-width="1"/>
+	<text x="248" y="279.7" fill="#000000" font-family="Verdana" font-size="12">Concerne</text>
+	<text x="248" y="304.8" fill="#000000" font-family="Verdana" font-size="12">Date</text>
+</g>
+
+<!-- Association Vendu -->
+<line x1="277" y1="160" x2="407" y2="160" stroke="#35978f" stroke-width="2"/>
+<text x="344" y="177.0" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<line x1="504" y1="160" x2="407" y2="160" stroke="#35978f" stroke-width="2"/>
+<text x="439" y="177.0" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-Vendu">
+	<path d="M 420 135 a 14 14 90 0 1 14 14 V 160 h -54 V 149 a 14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+	<path d="M 434 160.0 v 11 a 14 14 90 0 1 -14 14 H 394 a 14 14 90 0 1 -14 -14 V 160.0 H 54" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+	<rect x="380" y="135" width="54" height="50" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+	<line x1="380" y1="160" x2="434" y2="160" stroke="#35978f" stroke-width="1"/>
+	<text x="387" y="152.7" fill="#000000" font-family="Verdana" font-size="12">Vendu</text>
+	<text x="387" y="177.8" fill="#000000" font-family="Verdana" font-size="12">Date</text>
+</g>
+
+<!-- Entity Vente -->
+<g id="entity-Vente">
+	<g id="frame-Vente">
+		<rect x="466" y="118" width="76" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="466" y="143.0" width="76" height="59" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="466" y="118" width="76" height="84" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="466" y1="143" x2="542" y2="143" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="486" y="135.7" fill="#000000" font-family="Verdana" font-size="12">Vente</text>
+	<text x="471" y="160.8" fill="#000000" font-family="Verdana" font-size="12">ID_Vente</text>
+	<line x1="471" y1="163" x2="529" y2="163" stroke="#000000" stroke-width="1"/>
+	<text x="471" y="177.8" fill="#000000" font-family="Verdana" font-size="12">ID_Voiture</text>
+	<text x="471" y="194.8" fill="#000000" font-family="Verdana" font-size="12">ID_Client</text>
+</g>
+
+<!-- Entity Client -->
+<g id="entity-Client">
+	<g id="frame-Client">
+		<rect x="575" y="9" width="68" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="575" y="34.0" width="68" height="93" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="575" y="9" width="68" height="118" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="575" y1="34" x2="643" y2="34" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="591" y="26.7" fill="#000000" font-family="Verdana" font-size="12">Client</text>
+	<text x="580" y="51.7" fill="#000000" font-family="Verdana" font-size="12">ID_Client</text>
+	<line x1="580" y1="54" x2="637" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="580" y="68.8" fill="#000000" font-family="Verdana" font-size="12">Nom</text>
+	<text x="580" y="85.8" fill="#000000" font-family="Verdana" font-size="12">Prenom</text>
+	<text x="580" y="102.8" fill="#000000" font-family="Verdana" font-size="12">Age</text>
+	<text x="580" y="119.8" fill="#000000" font-family="Verdana" font-size="12">Adresse</text>
+</g>
+
+<!-- Entity Parc -->
+<g id="entity-Parc">
+	<g id="frame-Parc">
+		<rect x="215" y="109" width="124" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="215" y="134.0" width="124" height="77" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="215" y="109" width="124" height="102" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="215" y1="134" x2="339" y2="134" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="263" y="126.7" fill="#000000" font-family="Verdana" font-size="12">Parc</text>
+	<text x="220" y="151.7" fill="#000000" font-family="Verdana" font-size="12">ID_Parc</text>
+	<line x1="220" y1="154" x2="269" y2="154" stroke="#000000" stroke-width="1"/>
+	<text x="220" y="168.8" fill="#000000" font-family="Verdana" font-size="12">ID_Voiture</text>
+	<text x="220" y="185.8" fill="#000000" font-family="Verdana" font-size="12">Quantite_Neuf</text>
+	<text x="220" y="202.8" fill="#000000" font-family="Verdana" font-size="12">Quantite_Occasion</text>
+</g>
+
+<!-- Entity Inventaire -->
+<g id="entity-Inventaire">
+	<g id="frame-Inventaire">
+		<rect x="345" y="236" width="124" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="345" y="261.0" width="124" height="77" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="345" y="236" width="124" height="102" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="345" y1="261" x2="469" y2="261" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="375" y="253.7" fill="#000000" font-family="Verdana" font-size="12">Inventaire</text>
+	<text x="350" y="278.7" fill="#000000" font-family="Verdana" font-size="12">ID_Inventaire</text>
+	<line x1="350" y1="281" x2="435" y2="281" stroke="#000000" stroke-width="1"/>
+	<text x="350" y="295.8" fill="#000000" font-family="Verdana" font-size="12">ID_Parc</text>
+	<text x="350" y="312.8" fill="#000000" font-family="Verdana" font-size="12">Quantite_Neuf</text>
+	<text x="350" y="329.8" fill="#000000" font-family="Verdana" font-size="12">Quantite_Occasion</text>
+</g>
+
+<!-- Entity Voiture -->
+<g id="entity-Voiture">
+	<g id="frame-Voiture">
+		<rect x="9" y="109" width="76" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="9" y="134.0" width="76" height="77" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="9" y="109" width="76" height="102" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="9" y1="134" x2="85" y2="134" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="25" y="126.7" fill="#000000" font-family="Verdana" font-size="12">Voiture</text>
+	<text x="14" y="151.7" fill="#000000" font-family="Verdana" font-size="12">ID_Voiture</text>
+	<line x1="14" y1="154" x2="80" y2="154" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="168.8" fill="#000000" font-family="Verdana" font-size="12">Marque</text>
+	<text x="14" y="185.8" fill="#000000" font-family="Verdana" font-size="12">Modele</text>
+	<text x="14" y="202.8" fill="#000000" font-family="Verdana" font-size="12">Etat</text>
+</g>
+</svg>

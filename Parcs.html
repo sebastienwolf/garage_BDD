@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>Appartient</span> (
+    <span class='foreign primary'>ID_Client</span>,
+    <span class='foreign primary'>ID_Vente</span>
+  )
+</div>
+<div>
+  <span class='relation'>Client</span> (
+    <span class='primary'>ID_Client</span>,
+    <span class='normal'>Nom</span>,
+    <span class='normal'>Prenom</span>,
+    <span class='normal'>Age</span>,
+    <span class='normal'>Adresse</span>
+  )
+</div>
+<div>
+  <span class='relation'>Voiture</span> (
+    <span class='primary'>ID_Voiture</span>,
+    <span class='normal'>Marque</span>,
+    <span class='normal'>Modele</span>,
+    <span class='normal'>Etat</span>,
+    <span class='foreign'>ID_Parc</span>,
+    <span class='normal'>Date</span>
+  )
+</div>
+<div>
+  <span class='relation'>Parc</span> (
+    <span class='primary'>ID_Parc</span>,
+    <span class='normal'>ID_Voiture</span>,
+    <span class='normal'>Quantite_Neuf</span>,
+    <span class='normal'>Quantite_Occasion</span>
+  )
+</div>
+<div>
+  <span class='relation'>Vendu</span> (
+    <span class='foreign primary'>ID_Parc</span>,
+    <span class='foreign primary'>ID_Vente</span>,
+    <span class='normal'>Date</span>
+  )
+</div>
+<div>
+  <span class='relation'>Vente</span> (
+    <span class='primary'>ID_Vente</span>,
+    <span class='normal'>ID_Voiture</span>,
+    <span class='normal'>ID_Client</span>
+  )
+</div>
+<div>
+  <span class='relation'>Concerne</span> (
+    <span class='foreign primary'>ID_Parc</span>,
+    <span class='foreign primary'>ID_Inventaire</span>,
+    <span class='normal'>Date</span>
+  )
+</div>
+<div>
+  <span class='relation'>Inventaire</span> (
+    <span class='primary'>ID_Inventaire</span>,
+    <span class='normal'>ID_Parc</span>,
+    <span class='normal'>Quantite_Neuf</span>,
+    <span class='normal'>Quantite_Occasion</span>
+  )
+</div>
+</div>
+</body>
+</html>

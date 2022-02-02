@@ -1,0 +1,13 @@
+::::
+Appartient, 0N Client, 0N Vente
+Client: ID_Client, Nom, Prenom, Age, Adresse
+
+Voiture: ID_Voiture, Marque, Modele, Etat
+Contient, 01 Voiture, 0N Parc: Date
+Parc: ID_Parc, ID_Voiture, Quantite_Neuf, Quantite_Occasion
+Vendu, 0N Parc, 0N Vente: Date
+Vente: ID_Vente, ID_Voiture, ID_Client
+
+:
+Concerne, 0N Parc, 1N Inventaire: Date
+Inventaire: ID_Inventaire, ID_Parc, Quantite_Neuf, Quantite_Occasion

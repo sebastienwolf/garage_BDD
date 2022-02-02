@@ -1,0 +1,8 @@
+Appartient (_#ID_Client_, _#ID_Vente_)
+Client (_ID_Client_, Nom, Prenom, Age, Adresse)
+Voiture (_ID_Voiture_, Marque, Modele, Etat, #ID_Parc, Date)
+Parc (_ID_Parc_, ID_Voiture, Quantite_Neuf, Quantite_Occasion)
+Vendu (_#ID_Parc_, _#ID_Vente_, Date)
+Vente (_ID_Vente_, ID_Voiture, ID_Client)
+Concerne (_#ID_Parc_, _#ID_Inventaire_, Date)
+Inventaire (_ID_Inventaire_, ID_Parc, Quantite_Neuf, Quantite_Occasion)
